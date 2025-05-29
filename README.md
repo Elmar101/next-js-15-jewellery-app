@@ -1,3 +1,7 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
 - ESLINT => https://eslint.org/
 - ESLINT STYLE => https://eslint.style/packages/ts
 - PRETTIER => https://prettier.io/
@@ -910,38 +914,3 @@ Prettier — kodu avtomatik gözəl formatlayır.
 eslint-config-prettier — konfliktlərin qarşısını alır.
 Husky + lint-staged — Git commit-dən əvvəl avtomatik yoxlamalar edir.
 Stylelint — CSS və SCSS üçün lint.
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
