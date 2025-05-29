@@ -105,7 +105,7 @@ Next.js can serve static files, like images, under a folder called public in the
 --------------------------------------------------------------------------------------------------------------------------------------
 # settings.json
 {
- [ "typescript.tsdk": "node_modules/typescript/lib",]
+  "typescript.tsdk": "node_modules/typescript/lib",
   "prettier.jsxBracketSameLine": true,
   "files.autoSave": "off",
   "prettier.jsxSingleQuote": true,
