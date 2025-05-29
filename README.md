@@ -84,6 +84,65 @@ Next.js can serve static files, like images, under a folder called public in the
 
 
 ----------------------------------------------------------------------AZERBAYCANCA-------------------------------------------------------------------------------------------------------------
+1. ESLint – JavaScript və TypeScript kodunda səhvləri aşkar edən linting alətidir.
+
+2. Prettier – Kodun formatlanmasını vahid və oxunaqlı edən avtomatik formatlayıcı.
+
+3. eslint-config-prettier – ESLint və Prettier arasında yaranan formatlama konfliktlərini aradan qaldırır.
+
+4. eslint-plugin-prettier – Prettier formatlama qaydalarını ESLint daxilində xətalar kimi göstərir.
+
+5. Husky – Git əmrlərindən əvvəl (məsələn, commit-dən əvvəl) avtomatik skriptlərin işə düşməsini təmin edir.
+
+6. lint-staged – Yalnız git commit üçün əlavə olunan dəyişmiş fayllarda lint və formatlama əmrlərini işlədərək performansı artırır.
+
+7. Stylelint – CSS və SCSS fayllarında kod səhvlərini aşkar edən lint alətidir
+
+--------------------------------------------------------------------------------------------------------------------------------------
+# settings.json
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.jsxBracketSameLine": true,
+  "files.autoSave": "off",
+  "prettier.jsxSingleQuote": true,
+  "prettier.useTabs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+
+  "bitoAI.codeCompletion.enableAutoCompletion": false
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+
 # ESLint nədir?
 ESLint — JavaScript və TypeScript kodlarını yoxlayan və səhvləri göstərən bir linting (kod keyfiyyətini yoxlama) alətidir.
 Kodun düzgün yazılmasını təmin edir.
