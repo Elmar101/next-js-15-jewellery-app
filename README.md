@@ -105,7 +105,7 @@ Next.js can serve static files, like images, under a folder called public in the
 --------------------------------------------------------------------------------------------------------------------------------------
 # settings.json
 {
-  "typescript.tsdk": "node_modules/typescript/lib",
+ [ "typescript.tsdk": "node_modules/typescript/lib",]
   "prettier.jsxBracketSameLine": true,
   "files.autoSave": "off",
   "prettier.jsxSingleQuote": true,
@@ -142,6 +142,16 @@ Next.js can serve static files, like images, under a folder called public in the
 
   "bitoAI.codeCompletion.enableAutoCompletion": false
 }
+
+typescript.tsdk: Layihədə istifadə olunan TypeScript versiyasının yolunu göstərir.
+prettier.jsxBracketSameLine: JSX-də bağlayıcı mötərizənin eyni sətirdə olub-olmamasını təyin edir.
+prettier.jsxSingleQuote: JSX-də tək dırnaq işarəsi istifadəsini aktiv edir.
+prettier.useTabs: Formatlama zamanı tab istifadə edir.
+files.autoSave: Avtomatik yadda saxlamanı bağlayır.
+editor.defaultFormatter: Hər fayl növü üçün Prettier formatlayıcısını təyin edir.
+editor.codeActionsOnSave: Fayl saxlananda ESLint qaydalarına uyğun avtomatik düzəlişləri tətbiq edir.
+files.exclude: Qovluq və faylların VSCode-da gizlədilməsi üçün.
+bitoAI.codeCompletion.enableAutoCompletion: BitoAI avtomatik tamamlama funksiyasını deaktiv edir.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
