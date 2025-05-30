@@ -201,6 +201,7 @@ settings.json-da aşağıdakı seti əlavə edin ki, kodu saxlayanda ESLint avto
     "source.fixAll.eslint": true
 }
 
+# { ignores: ["dist", "node_modules"] },
 
 Prettier nədir?
 Prettier — kodun avtomatik formatlanması üçün istifadə olunan alətdir.
